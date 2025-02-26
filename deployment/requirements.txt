@@ -1,0 +1,7 @@
+Flask
+torch
+torchvision
+timm
+scikit-learn
+matplotlib
+seaborn
