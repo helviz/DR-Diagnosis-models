@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load the model
 model = create_model("deit_base_patch16_224", pretrained=True, num_classes=5)
-model.load_state_dict(torch.load("path/to/your/model.pth"))
+model.load_state_dict(torch.load("deployment/model.pth"))
 model.eval()
 
 # Image transformations
